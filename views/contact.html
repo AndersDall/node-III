@@ -16,12 +16,13 @@
     </header>
     <main>
     <form method="POST" action="/contact.html">
-        Name: <input type="text" placeholder="name.." name="name"><br>
-        E-mail: <input type="text" placeholder="e-mail.." name="mail"><br>
-        Message: <br><textarea placeholder="message.." rows="10" cols="30" name="message"></textarea><br>
+        Name: <input type="text" placeholder="name.." name="name" id="name"><br>
+        E-mail: <input type="text" placeholder="e-mail.." name="mail" id="mail"><br>
+        Message: <br><textarea placeholder="message.." rows="10" cols="30" name="message" id="message"></textarea><br>
 
-        <input type="submit" value="send">
+        <input type="submit" value="send" id="send">
     </form>
+    <div id="receipt"></div>
     </main>
     <footer>
         <p>
@@ -29,4 +30,5 @@
         </p>
     </footer>
 </body>
+<script src="main.js"></script>
 </html>
